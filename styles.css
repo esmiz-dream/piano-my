@@ -1,0 +1,57 @@
+body {
+  width: 100%;
+  height: auto;
+}
+#main {
+  width: 50%;
+  font-size: 13px;
+  margin: 50px auto;
+  border-radius: 7px;
+  padding: 10px 15px;
+  background-color: rgb(0, 71, 27);
+}
+h1 {
+  color: aliceblue;
+  margin-left: 30px;
+}
+
+#piano {
+  width: 100%;
+  margin: 0 auto;
+  border-width: 3px 3px 4px 3px;
+  border-style: solid;
+  border-color: black;
+ display: inline-block;
+}
+.tow-pen {
+  width: 21%;
+}
+.three-pen {
+  width: 28%;
+}
+#block {
+  display: inline-block;
+  background-color:rgb(255,255,255);
+  Z-index: -1;
+  padding-bottom: 69px;
+}
+ 
+.key-block{
+  width: max-content;
+  margin: 0 auto;
+}
+
+.key{
+  width: 25px;
+  height: 100px;
+  background-color:rgb(29,30,34);
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.key-space{
+  height: 70px;
+  max-width: max-content;
+  border: 2px solid black;
+  margin: 99px auto 2px auto;
+}
